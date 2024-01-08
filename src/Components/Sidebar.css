@@ -1,0 +1,129 @@
+.sidebar{
+    background-color: #ffff;
+    box-shadow: 2px 1px 5px #f5f2f2;
+    height: 100%;
+    width: 250px;
+    padding:0px 10px;
+}
+.profile{
+    background-color: white;
+    border: 1px solid #fdfbfb;
+    box-shadow: 0px 3px #f5f2f2;
+    padding: 10px;
+}
+
+.profile img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+h3{
+    margin-top: 5px;
+    margin-left: 66px;
+}
+h4{
+    margin-top: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.menu-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.menu-links li{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    padding: 11px;
+    margin-top: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 65px;
+}
+.menu-links li p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu-links li .icon{
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.menu-links li:hover{
+    background-color: blue;
+}
+.menu-links li:hover p{
+    color: white;
+}
+.logout{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #efeff8;
+    height: 60px;
+    padding: auto;
+}
+span{
+    margin-left: 15px;
+    color: #e70303;
+}
+.logout:hover h3{
+    width: 400px;
+    color: red;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* .sidebar {
+      width: 100%;
+      height: auto;
+      box-shadow: none;
+      position: relative;
+    }
+  
+    .profile img {
+      margin-left: 10px;
+    }
+  
+    h3, h4 {
+      margin-left: 10px; 
+    }
+  
+    .menu-links {
+      margin-top: 10px;
+    }
+  
+    .menu-links li {
+      height: auto;
+      margin-top: 10px;
+      padding: 10px;
+      justify-content: flex-start;
+    }
+  
+    .menu-links li p {
+      font-size: 16px; 
+    }
+  
+    .menu-links li .icon {
+      margin-bottom: 0;
+    }
+  
+    .logout {
+      margin-top: 20px;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .logout h3 {
+      width: auto;
+      font-weight: normal;
+    } */
+  }

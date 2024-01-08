@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 247, 244);
+    min-width: 600px;
+    height: 80px;
+}
+img{
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+}
+.navbar-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+.navbar-text p{
+    background-color: white;
+    padding: 10px;
+}
+.icon{
+    background-color: white;
+    padding: 10px;
+    height: 38px;
+    margin-left: 4px;
+    margin-bottom: 1px;
+}
+
+
+@media only screen and (max-width:1400px) {
+    .navbar{
+        width: 100%;
+    }
+  }
